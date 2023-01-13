@@ -1,3 +1,5 @@
-console.log('hello');
-console.log('heelo2');
-console.log('hello 3');
+async function promiseFunc() {
+  return 6;
+}
+
+promiseFunc().then(console.log);
